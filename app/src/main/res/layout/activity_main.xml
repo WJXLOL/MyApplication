@@ -7,15 +7,81 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+
     <TextView
-            android:layout_width="152dp"
-            android:layout_height="94dp"
-            android:text="@string/Fuck"
+            android:layout_width="81dp"
+            android:layout_height="33dp"
+            android:text="@string/WJX2"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            android:id="@+id/textView3"/>
+    <TextView
+            android:layout_width="81dp"
+            android:layout_height="33dp"
+            android:text="@string/WJX1"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintVertical_bias="0.381" android:id="@+id/textView2"/>
+
+    <EditText android:layout_width="290dp"
+              android:layout_height="40dp"
+              tools:ignore="LabelFor,MissingConstraints"
+              android:inputType="textPassword"
+              android:autofillHints="true"
+              tools:targetApi="o"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="0.499" android:id="@+id/editText"
+              app:layout_constraintHorizontal_bias="0.988"/>
+    <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:background="#ff336699"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/登录"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintVertical_bias="0.869"/>
+
+    <EditText android:layout_width="290dp"
+              android:layout_height="40dp"
+              tools:ignore="LabelFor,MissingConstraints"
+              android:inputType="text"
+              android:autofillHints="true"
+              tools:targetApi="o"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="0.378" app:layout_constraintHorizontal_bias="0.988"/>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="76dp"
+            android:text="@string/WJX"
             android:textSize="55sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintVertical_bias="0.461"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintVertical_bias="0.0" android:id="@+id/textView"
+            android:background="@android:color/holo_orange_dark"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
